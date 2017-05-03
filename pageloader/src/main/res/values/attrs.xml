@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PageLoader">
+        <attr name="setTextSize" format="dimension"/>
+        <attr name="setTextColor" format="color"/>
+        <attr name="setPageLoaderBackground" format="color"/>
+        <!--error-->
+        <attr name="setErrorText" format="string"/>
+        <attr name="setErrorTextColor" format="color"/>
+        <attr name="setErrorImage" format="reference"/>
+        <attr name="setErrorImageHeight" format="dimension"/>
+        <attr name="setErrorImageWidth" format="dimension"/>
+        <!--loading-->
+        <attr name="setLoadingText" format="string"/>
+        <attr name="setLoadingTextColor" format="color"/>
+        <attr name="setLoadingImage" format="reference"/>
+        <attr name="setLoadingImageHeight" format="dimension"/>
+        <attr name="setLoadingImageWidth" format="dimension"/>
+        <attr name="setLoadingAnimationMode" format="string"/>
+        <!--no connection-->
+        <attr name="setNoConnectionText" format="string"/>
+        <attr name="setNoConnectionTextColor" format="color"/>
+        <attr name="setNoConnectionImage" format="reference"/>
+        <attr name="setNoConnectionImageHeight" format="dimension"/>
+        <attr name="setNoConnectionImageWidth" format="dimension"/>
+    </declare-styleable>
+</resources>
