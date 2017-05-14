@@ -305,12 +305,9 @@ public class PageLoader extends RelativeLayout {
         }
     }
 
-    public void setRetryOnError(View.OnClickListener v) {
-        progressViewFailed.setOnClickListener(v);
-    }
-
-    public void setRetryOnNoConnection(View.OnClickListener v) {
-        progressViewNoConnection.setOnClickListener(v);
+    public void setOnRetry(View.OnClickListener clickListener) {
+        progressViewFailed.setOnClickListener(clickListener);
+        progressViewNoConnection.setOnClickListener(clickListener);
     }
 
     public void startLoading() {

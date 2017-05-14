@@ -3,6 +3,7 @@ package com.iamhabib.pageloaderdemo;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 
 import com.iamhabib.pageloader.PageLoader;
 
@@ -21,5 +22,11 @@ public class MainActivity extends AppCompatActivity {
                 pageLoader.setNoConnection();
             }
         }, 5000);
+        pageLoader.setOnRetry(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                pageLoader.startLoading();
+            }
+        });
     }
 }

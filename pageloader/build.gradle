@@ -12,7 +12,7 @@ ext {
     siteUrl = 'http://iamhabib.com/pageloader'
     gitUrl = 'https://bitbucket.org/hr_habib/pageloader'
 
-    libraryVersion = '1.0.0'
+    libraryVersion = '1.0.1'
 
     developerId = 'iamhabib'
     developerName = 'Habibur Rahman'
